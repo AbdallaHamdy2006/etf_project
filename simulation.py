@@ -29,7 +29,7 @@ if __name__ == '__main__':
     scenarios = [
         ('No arbitrage (no APs)', 0.10, 0.0),
         ('Liquid Stock basket: band +/-0.10%', 0.10, 0.8),
-        ('Bond not liquid basket: band +/-0.40%', 0.40, 0.8),
+        ('Illiquid Bond basket: band +/-0.40%', 0.40, 0.8),
     ]
 
     fig, axes = plt.subplots(3, 1, figsize=(10, 8), sharex=True)
